@@ -1,0 +1,25 @@
+# Xcode / build
+DerivedData/
+build/
+*.xcarchive
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# Package managers
+Pods/
+Carthage/Build/
+.swiftpm/
+.build/
+
+# OS
+.DS_Store
+
+# Binary / Large assets (外部に置く)
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.mov
+*.zip
+*.ipa
+*.mlmodelc
