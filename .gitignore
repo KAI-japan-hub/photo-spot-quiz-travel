@@ -1,0 +1,12 @@
+DerivedData/
+*.xcuserdatad/
+*.xcworkspace/contents.xcworkspacedata
+*.xcuserdata/
+
+# ML / 大容量はGitに入れない
+*.heic
+*.HEIC
+*.mlmodel
+*.mlpackage
+*.mlproj/
+Kyovel/SpotTrainingData/
