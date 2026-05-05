@@ -1,50 +1,14 @@
-# 📸 Photo Spot Quiz Travel
-
-A SwiftUI + CoreML-based mobile app to enhance group travel experiences through **photo spot quizzes**, emotion tracking, and user engagement analytics.
-
-## 🧪 Overview
-
-This app was developed as part of a university research project aiming to investigate how **group communication** affects emotional states during travel. Users work together in teams to find secret "photo spots" in real-world tourist areas like **Kyoto**, and their engagement is tracked via heart rate (Apple Watch), surveys, and app interaction.
-
-## 🎯 Objective
-
-To explore whether:
-- Group-based quiz activity can increase **positive emotion and engagement** during travel.
-- Emotion data (heart rate, feedback) can offer insights into **user experience** in tourism contexts.
-
-## 💡 Features
-
-- 🗺️ Group destination selection with photo spot missions  
-- 📷 Spot Quiz system using cropped images & CoreML classification  
-- ⌚ Apple Watch integration to collect heart rate data during exploration  
-- 📝 Google Form integration for in-spot and post-spot surveys  
-- 📈 UX evaluation through visual, physiological, and behavioral data  
-
-## 🛠️ Tech Stack
-
-- **SwiftUI / Swift**
-- **Create ML / CoreML**
-- **Apple Watch integration (HealthKit)**
-- **Django backend (for data storage & analysis)**
-- **GitHub + Git LFS (for code & model management)**
-
-## 🧪 Sample Screenshots / Demo
-
-yet
-
-## 🚀 Future Plans
-
-- Improve CoreML model performance  
-- Add multiplayer mode  
-- Expand spots to international destinations  
-- Publish research results in English  
-
-## 👤 Author
-
-Shousei Yamaguchi  
-[GitHub](https://github.com/KAI-japan-hub) ｜ [LinkedIn](https://www.linkedin.com/in/翔生-山口-37788a357/) ｜ Kyoto Sangyo University  
-(Master's student starting April 2026)
-
-## 📄 License
-
-MIT
+##Group Tourist Well-being Support System (Photo Spot Quiz)
+This system was developed to enhance the well-being and cooperative behavior of group tourists through collaborative exploration activities. The project utilizes iPhones and Apple Watches to investigate the psychological impacts of shared tasks, specifically focusing on how personality traits and environmental contexts influence the group experience. 
+##Background and Objectives of the ResearchWhile over 80% of modern overnight trips are conducted in groups, visiting destinations together does not always facilitate active interaction among members or enhance their well-being. This research aims to induce group conversation and improve the quality of the tourism experience by introducing collaborative exploration tasks through a photo-spot quiz system.  
+##System Configuration and Functions
+The system is comprised of an integrated setup using iPhones and Apple Watches.  
+#1. Photo-Spot Quiz FunctionTask Presentation: The system presents a partial photo that crops a specific landscape at a tourist site as an exploration task.  Asymmetric Hint Provision: To stimulate group discussion, the three participants are each assigned different hints on their respective devices. By requiring members to verbally share unique information that only they can see, the system encourages natural communication.  Automated Verification System: Task completion is automatically judged in real-time by using the Core ML machine learning library on the iPhone to compare the similarity of the captured photo with the correct landscape, combined with GPS location verification.  #2. Multi-Modal Data CollectionPhysiological Measures: Continuous heart rate monitoring is conducted every five seconds via Apple Watch.  Behavioral Measures: GPS data is transmitted to a server every time a participant moves more than three meters, recording detailed movement routes and total distances.  Psychological Measures: In-app surveys are conducted at three phases (arrival, mid-visit, and exit) using the Multidimensional Mood Scale (MMS) and the Positive and Negative Affect Schedule (PANAS).  
+##Experimental Design
+A field experiment was conducted in Kyoto, Japan, involving six groups of three close friends for a total of 17 participants.  Experimental Conditions: Each group participated in two separate conditions across different days: sightseeing with the support system and sightseeing without any support system.  Analytical Axes: Results were analyzed based on the participants' personality traits via the Big Five model and the environmental context regarding perceived crowding of the location.  
+##Detailed Analysis of Results
+#1. Effects of Personality TraitsAnalysis using Non-metric Multidimensional Scaling (NMDS) revealed distinct trends based on group composition:  Efficacy for Specific Personality Types: In groups where the majority of members possessed high levels of Extraversion and Openness, Positive Affect (PA) and Liveliness scores increased significantly when using the system.  Burden Based on Traits: Participants with lower levels of these traits showed no significant emotional change, suggesting that they may perceive the task as a burden.  
+#2. Stress Mitigation in Crowded EnvironmentsEnhanced Well-being in Crowds: In highly crowded tourist spots, Liveliness scores were significantly higher under the condition using the system compared to the condition without it (p = 0.049).  Impact of Goal Setting: The results suggest that even in stressful, crowded environments, having a shared collaborative goal allows participants to perceive the crowd as part of the activity rather than a source of stress.  
+#3. Stability of Physiological SynchronizationGroup Togetherness: Heart rate synchronization, where heart rate fluctuations match among group members, was analyzed as an indicator of group togetherness.  Increased Stability: While mean synchronization scores did not show dramatic changes, the standard deviation of these scores was significantly smaller when using the system. This indicates that engaging in a shared task helped maintain a more stable physiological state of synchronization among group members.  
+#4. Emotions at the Moment of DiscoveryIncrease in Startle Scores: A significant increase in Startle scores was observed from arrival to mid-visit. This psychological data captures the specific moment of joy and surprise when participants successfully identified the correct location for the quiz.  
+##Conclusion and Future OutlookThis study utilizes psychological, physiological, and behavioral data to demonstrate that collaborative exploration tasks enhance well-being in group tourism. These effects are particularly pronounced among extroverted participants and in crowded environments. Future prospects include designing self-paced tasks for participants with lower extraversion, expanding the system to international destinations, and improving the performance of the Core ML models.  
