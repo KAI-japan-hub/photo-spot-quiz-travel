@@ -1,6 +1,7 @@
 # Group Tourist Well-being Support System (Photo Spot Quiz)
 This system was developed to enhance the well-being and cooperative behavior of group tourists through collaborative exploration activities. The project utilizes iPhones and Apple Watches to investigate the psychological impacts of shared tasks, specifically focusing on how personality traits and environmental contexts influence the group experience. 
-# Background and Objectives of the ResearchWhile over 80% of modern overnight trips are conducted in groups, visiting destinations together does not always facilitate active interaction among members or enhance their well-being. This research aims to induce group conversation and improve the quality of the tourism experience by introducing collaborative exploration tasks through a photo-spot quiz system.  
+# Background and Objectives of the Research
+While over 80% of modern overnight trips are conducted in groups, visiting destinations together does not always facilitate active interaction among members or enhance their well-being. This research aims to induce group conversation and improve the quality of the tourism experience by introducing collaborative exploration tasks through a photo-spot quiz system.  
 # System Configuration and Functions
 The system is comprised of an integrated setup using iPhones and Apple Watches.  
 ## 1. Photo-Spot Quiz Function
